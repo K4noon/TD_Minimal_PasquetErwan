@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 3
   tags:
   - Triangle_Spawn
+  - Bullet
   layers:
   - Default
   - TransparentFX

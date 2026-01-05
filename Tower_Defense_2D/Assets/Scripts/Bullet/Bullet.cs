@@ -3,6 +3,8 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody2D), typeof(Collider2D))]
 public class Bullet : MonoBehaviour
 {
+    public int DMG = 10;
+
     [SerializeField]
     [Tooltip("Décalage vers la droite (en unités Unity) appliqué à la position de tir")]
     private float rightOffset = 0.2f;
